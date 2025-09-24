@@ -1,0 +1,7 @@
+defaults:
+  - base
+
+name: "ptbxl_all"
+path: "/path/to/ptb-xl/records500"
+fs: 500.
+annotation: false
