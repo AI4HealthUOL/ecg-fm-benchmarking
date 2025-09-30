@@ -1,6 +1,6 @@
-# FM-Benchmarking
+# ECG-FM-Benchmarking
 
-**FM-Benchmarking** is a repository for benchmarking ECG foundation models across **12 public datasets** and **26 clinically relevant tasks**.  
+**ECG-FM-Benchmarking** is a repository for benchmarking ECG foundation models across **12 public datasets** and **26 clinically relevant tasks**.  
 It provides scripts, configurations, and checkpoints to evaluate models efficiently and reproducibly.
 
 ![Abstract](abstract.png)
