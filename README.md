@@ -1,7 +1,12 @@
 # ECG-FM-Benchmarking
 
-**ECG-FM-Benchmarking** is a repository for benchmarking ECG foundation models across **12 public datasets** and **26 clinically relevant tasks**.  
-It provides scripts, configurations, and checkpoints to evaluate models efficiently and reproducibly.
+This is the official repository for the paper [Benchmarking ECG Foundational Models: A Reality Check Across Clinical Tasks](http://arxiv.org/abs/2509.25095)
+
+[![arXiv](https://img.shields.io/badge/arXiv-1234.56789-b31b1b.svg)](http://arxiv.org/abs/2509.25095)
+
+
+Here, we benchmark ECG foundation models across **12 public datasets** and **26 clinically relevant tasks** encompassing **1,650 regression and classification targets**.
+We also proposed ECG-CPC, a new and outperforming ECG foundational model. We provide scripts, configurations, and checkpoints to evaluate models efficiently and reproducibly.
 
 ![Abstract](abstract.png)
 
