@@ -88,3 +88,20 @@ Modify the dataset path in the `fm-benchmarking/code/clinical_ts/models/conf/dat
 ```bash
 sbatch run.sh
 ```
+
+
+# Please cite our publication if you found our research to be helpful.
+
+```bibtex
+@misc{almasud2025benchmarkingecgfoundationalmodels,
+      title={Benchmarking ECG Foundational Models: A Reality Check Across Clinical Tasks}, 
+      author={M A Al-Masud and Juan Miguel Lopez Alcaraz and Nils Strodthoff},
+      year={2025},
+      eprint={2509.25095},
+      archivePrefix={arXiv},
+      primaryClass={eess.SP},
+      url={https://arxiv.org/abs/2509.25095}, 
+}
+```
+
+
