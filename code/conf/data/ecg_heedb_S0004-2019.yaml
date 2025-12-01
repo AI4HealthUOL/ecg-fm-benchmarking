@@ -1,0 +1,7 @@
+defaults:
+  - base
+
+name: "heedb_S0004-2019"
+path: ""
+fs: 240.
+annotation: false 

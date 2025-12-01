@@ -1,0 +1,7 @@
+defaults:
+  - base
+
+name: "heedb_s0001_1987"
+path: ""
+fs: 240.
+annotation: false

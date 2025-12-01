@@ -1,0 +1,7 @@
+defaults:
+  - base
+
+name: "heedb_S0002-2022"
+path: ""
+fs: 240.
+annotation: false 

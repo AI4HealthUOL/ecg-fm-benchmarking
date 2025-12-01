@@ -1,4 +1,4 @@
-__all__ = ['TSData','tsdata_collate_fn','ConcatTimeSeriesDataset','TimeSeriesDataset','TimeSeriesDatasetConfig']
+__all__ = ['TSData','tsdata_collate_fn','tsdata_tuple_collate_fn','ConcatTimeSeriesDataset','TimeSeriesDataset','TimeSeriesDatasetConfig']
 
 import numpy as np
 import torch
@@ -59,6 +59,34 @@ def tsdata_collate_fn(batch):
         result["seq_idxs"] = seq_idxs
 
     return result
+
+def tsdata_tuple_collate_fn(batch):
+    """
+    Collate function for batches of tuples containing TSData objects.
+    Returns a tuple of dictionaries, each with the original field keys (seq, label, etc.).
+    """
+    if not batch:
+        return ()
+    
+    # Determine the number of TSData objects in each tuple
+    tuple_length = len(batch[0])
+    
+    # Initialize result tuple
+    result = []
+    
+    # Process each position in the tuple
+    for i in range(tuple_length):
+        # Extract the i-th TSData object from each tuple in the batch
+        tsdata_batch = [item[i] for item in batch]
+        
+        # Use the original collate function to process this batch of TSData objects
+        collated_data = tsdata_collate_fn(tsdata_batch)
+        
+        # Add the collated dictionary to our result
+        result.append(collated_data)
+    
+    return tuple(result)
+
 
 def arrays_equal_with_nans(arr1, arr2):
     '''helper function to compare arrays with nans'''

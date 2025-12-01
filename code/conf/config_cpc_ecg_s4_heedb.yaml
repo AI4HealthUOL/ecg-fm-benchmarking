@@ -1,0 +1,220 @@
+defaults:
+  - base: base
+  - data@data0: ecg_heedb_S0001-1987
+  - data@data1: ecg_heedb_S0001-1988
+  - data@data2: ecg_heedb_S0001-1994
+  - data@data3: ecg_heedb_S0001-2006
+  - data@data4: ecg_heedb_S0001-2007
+  - data@data5: ecg_heedb_S0001-2011
+  - data@data6: ecg_heedb_S0001-2013
+  - data@data7: ecg_heedb_S0001-2015
+  - data@data8: ecg_heedb_S0001-2016
+  - data@data9: ecg_heedb_S0001-2017
+  - data@data10: ecg_heedb_S0001-2018
+  - data@data11: ecg_heedb_S0001-2019
+  - data@data12: ecg_heedb_S0001-2020
+  - data@data13: ecg_heedb_S0001-2021
+  - data@data14: ecg_heedb_S0002-1993
+  - data@data15: ecg_heedb_S0002-1997
+  - data@data16: ecg_heedb_S0002-1998
+  - data@data17: ecg_heedb_S0002-2000
+  - data@data18: ecg_heedb_S0002-2003
+  - data@data19: ecg_heedb_S0002-2004
+  - data@data20: ecg_heedb_S0002-2008
+  - data@data21: ecg_heedb_S0002-2009
+  - data@data22: ecg_heedb_S0002-2013
+  - data@data23: ecg_heedb_S0002-2015
+  - data@data24: ecg_heedb_S0002-2016
+  - data@data25: ecg_heedb_S0002-2018
+  - data@data26: ecg_heedb_S0002-2020
+  - data@data27: ecg_heedb_S0002-2022
+  - data@data28: ecg_heedb_S0003-1990
+  - data@data29: ecg_heedb_S0003-1994
+  - data@data30: ecg_heedb_S0003-2009
+  - data@data31: ecg_heedb_S0003-2010
+  - data@data32: ecg_heedb_S0003-2013
+  - data@data33: ecg_heedb_S0004-2019
+  - ts: tsenc
+  - ts/enc: rnn
+  - ts/pred: s4
+  - ts/head: none
+  - ts/head_ssl: mlp
+  - ts/loss: cpc
+  - static: none
+  - head: none
+  - loss: none
+  - trainer: trainer
+  - task: ecg
+  - metric: none
+  - _self_
+
+data0:
+  train_fold_ids: ["x-1"]
+  val_fold_ids: ["-1"]
+  test_fold_ids: []
+data1:
+  train_fold_ids: ["x-1"]
+  val_fold_ids: ["-1"]
+  test_fold_ids: []
+data2:
+  train_fold_ids: ["x-1"]
+  val_fold_ids: ["-1"]
+  test_fold_ids: []
+data3:
+  train_fold_ids: ["x-1"]
+  val_fold_ids: ["-1"]
+  test_fold_ids: []
+data4:
+  train_fold_ids: ["x-1"]
+  val_fold_ids: ["-1"]
+  test_fold_ids: []
+data5:
+  train_fold_ids: ["x-1"]
+  val_fold_ids: ["-1"]
+  test_fold_ids: []
+data6:
+  train_fold_ids: ["x-1"]
+  val_fold_ids: ["-1"]
+  test_fold_ids: []
+data7:
+  train_fold_ids: ["x-1"]
+  val_fold_ids: ["-1"]
+  test_fold_ids: []
+data8:
+  train_fold_ids: ["x-1"]
+  val_fold_ids: ["-1"]
+  test_fold_ids: []
+data9:
+  train_fold_ids: ["x-1"]
+  val_fold_ids: ["-1"]
+  test_fold_ids: []
+data10:
+  train_fold_ids: ["x-1"]
+  val_fold_ids: ["-1"]
+  test_fold_ids: []
+data11:
+  train_fold_ids: ["x-1"]
+  val_fold_ids: ["-1"]
+  test_fold_ids: []
+data12:
+  train_fold_ids: ["x-1"]
+  val_fold_ids: ["-1"]
+  test_fold_ids: []
+data13:
+  train_fold_ids: ["x-1"]
+  val_fold_ids: ["-1"]
+  test_fold_ids: []
+data14:
+  train_fold_ids: ["x-1"]
+  val_fold_ids: ["-1"]
+  test_fold_ids: []
+data15:
+  train_fold_ids: ["x-1"]
+  val_fold_ids: ["-1"]
+  test_fold_ids: []
+data16:
+  train_fold_ids: ["x-1"]
+  val_fold_ids: ["-1"]
+  test_fold_ids: []
+data17:
+  train_fold_ids: ["x-1"]
+  val_fold_ids: ["-1"]
+  test_fold_ids: []
+data18:
+  train_fold_ids: ["x-1"]
+  val_fold_ids: ["-1"]
+  test_fold_ids: []
+data19:
+  train_fold_ids: ["x-1"]
+  val_fold_ids: ["-1"]
+  test_fold_ids: []
+data20:
+  train_fold_ids: ["x-1"]
+  val_fold_ids: ["-1"]
+  test_fold_ids: []
+data21:
+  train_fold_ids: ["x-1"]
+  val_fold_ids: ["-1"]
+  test_fold_ids: []
+data22:
+  train_fold_ids: ["x-1"]
+  val_fold_ids: ["-1"]
+  test_fold_ids: []
+data23:
+  train_fold_ids: ["x-1"]
+  val_fold_ids: ["-1"]
+  test_fold_ids: []
+data24:
+  train_fold_ids: ["x-1"]
+  val_fold_ids: ["-1"]
+  test_fold_ids: []
+data25:
+  train_fold_ids: ["x-1"]
+  val_fold_ids: ["-1"]
+  test_fold_ids: []
+data26:
+  train_fold_ids: ["x-1"]
+  val_fold_ids: ["-1"]
+  test_fold_ids: []
+data27:
+  train_fold_ids: ["x-1"]
+  val_fold_ids: ["-1"]
+  test_fold_ids: []
+data28:
+  train_fold_ids: ["x-1"]
+  val_fold_ids: ["-1"]
+  test_fold_ids: []
+data29:
+  train_fold_ids: ["x-1"]
+  val_fold_ids: ["-1"]
+  test_fold_ids: []
+data30:
+  train_fold_ids: ["x-1"]
+  val_fold_ids: ["-1"]
+  test_fold_ids: []
+data31:
+  train_fold_ids: ["x-1"]
+  val_fold_ids: ["-1"]
+  test_fold_ids: []
+data32:
+  train_fold_ids: ["x-1"]
+  val_fold_ids: ["-1"]
+  test_fold_ids: []
+data33:
+  train_fold_ids: ["x-1"]
+  val_fold_ids: ["-1"]
+  test_fold_ids: []
+
+
+base:
+  batch_size: 64
+  fs: 240.
+  input_channels: 12
+  input_size: 10.
+  normalize: false
+
+trainer:
+  gpus: 1
+  refresh_rate: 1
+  epochs: 200
+  precision: 32
+  checkpoint_every_n_train_steps: 10000
+  checkpoint_every_n_epochs: 0
+
+ts:
+  loss:
+    negatives_from_same_seq_only: True
+    steps_predicted: 14
+    
+  enc:
+    features: [ 512, 512, 512, 512 ]
+    kss: [ 3, 1, 1, 1 ]
+    strides: [ 2, 1, 1, 1 ]
+  pred:
+    causal: True
+    state_dim: 8
+    model_dim: 512
+    backbone: "s42"
+  head_ssl:
+    multi_prediction: true
+    bias: false
