@@ -1,5 +1,10 @@
 # ECG-FM-Benchmarking
 
+The official repository for the paper [Benchmarking ECG Foundational Models: A Reality Check Across Clinical Tasks](http://arxiv.org/abs/2509.25095)
+
+[![arXiv](https://img.shields.io/badge/arXiv-1234.56789-b31b1b.svg)](http://arxiv.org/abs/2509.25095)
+
+
 
 Here, we benchmark ECG foundation models across **12 public datasets** and **26 clinically relevant tasks** encompassing **1,650 regression and classification targets**.
 We also proposed ECG-CPC, a new and outperforming ECG foundational model. We provide scripts, configurations, and checkpoints to evaluate models efficiently and reproducibly.
@@ -83,6 +88,20 @@ Modify the dataset path in the `fm-benchmarking/code/clinical_ts/models/conf/dat
 
 ```bash
 sbatch run.sh
+```
+
+# Please cite our publication if you found our research to be helpful.
+
+```bibtex
+@misc{almasud2025benchmarkingecgfoundationalmodels,
+      title={Benchmarking ECG Foundational Models: A Reality Check Across Clinical Tasks}, 
+      author={M A Al-Masud and Juan Miguel Lopez Alcaraz and Nils Strodthoff},
+      year={2025},
+      eprint={2509.25095},
+      archivePrefix={arXiv},
+      primaryClass={eess.SP},
+      url={https://arxiv.org/abs/2509.25095}, 
+}
 ```
 
 
