@@ -19,7 +19,7 @@ You can download the datasets from the following sources:
 
 - [PTB-XL](https://physionet.org/content/ptb-xl/1.0.3/)  
 - [PTB](https://www.physionet.org/content/ptbdb/1.0.0/)  
-- [SPH](https://figshare.com/articles/figure/SPH/22199548?file=39453271)  
+- [SPH](https://springernature.figshare.com/collections/A_large-scale_multi-label_12-lead_electrocardiogram_database_with_standardized_diagnostic_statements/5779802/1)  
 - [EchoNext](https://physionet.org/content/echonext/1.1.0/)  
 - [ZZU pECG](https://doi.org/10.6084/m9.figshare.27078763)  
 - [CODE-15%](https://zenodo.org/records/4916206)  
