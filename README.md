@@ -23,7 +23,7 @@ You can download the datasets from the following sources:
 - [EchoNext](https://physionet.org/content/echonext/1.1.0/)  
 - [ZZU pECG](https://doi.org/10.6084/m9.figshare.27078763)  
 - [CODE-15%](https://zenodo.org/records/4916206)  
-- [Chapman](https://figshare.com/articles/dataset/Chapman_ECG_dataset/25558926)  
+- [Chapman](https://figshare.com/collections/ChapmanECG/4560497)  
 - [CPSC2018, CPSC-Extra, Georgia, Ningbo](https://physionet.org/content/challenge-2021/1.0.3/)  
 - [MIMIC-IV-ECG](https://physionet.org/content/mimic-iv-ecg/1.0/)  
 
