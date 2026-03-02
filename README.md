@@ -9,7 +9,7 @@ The official repository for the paper [Benchmarking ECG Foundational Models: A R
 Here, we benchmark ECG foundation models across **12 public datasets** and **26 clinically relevant tasks** encompassing **1,650 regression and classification targets**.
 We also proposed ECG-CPC, a new and outperforming ECG foundational model. We provide scripts, configurations, and checkpoints to evaluate models efficiently and reproducibly.
 
-![Abstract](abstract.png)
+![Abstract](abstract.svg)
 
 ---
 
