@@ -25,7 +25,8 @@ You can download the datasets from the following sources:
 - [CODE-15%](https://zenodo.org/records/4916206)  
 - [Chapman](https://figshare.com/collections/ChapmanECG/4560497)  
 - [CPSC2018, CPSC-Extra, Georgia, Ningbo](https://physionet.org/content/challenge-2021/1.0.3/)  
-- [MIMIC-IV-ECG](https://physionet.org/content/mimic-iv-ecg/1.0/)  
+- [MIMIC-IV-ECG](https://physionet.org/content/mimic-iv-ecg/1.0/)  (save under data/ the following files from physionet:
+records_w_diag_icd10.csv (MIMIC-IV-ECG-ICD), mds_ed.csv (MDS-ED), machine_measurements.csv (MIMIC-IV-ECG), omr.csv.gz (MIMIC-IV), vitalsign.csv.gz (MIMIC-IV), d_labitems.csv.gz (MIMIC-IV), labevents.csv.gz (MIMIC-IV), d_items.csv.gz (MIMIC-IV), chartevents.csv.gz (MIMIC-IV) )
 
 ---
 
