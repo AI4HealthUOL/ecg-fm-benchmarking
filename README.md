@@ -2,7 +2,7 @@
 
 The official repository for the paper [Benchmarking ECG Foundational Models: A Reality Check Across Clinical Tasks](http://arxiv.org/abs/2509.25095)
 
-[![arXiv](https://img.shields.io/badge/arXiv-1234.56789-b31b1b.svg)](http://arxiv.org/abs/2509.25095)
+[![arXiv](https://img.shields.io/badge/arXiv-2509.25095-b31b1b.svg)](http://arxiv.org/abs/2509.25095)
 
 
 
