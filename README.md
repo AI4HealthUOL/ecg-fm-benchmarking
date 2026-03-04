@@ -1,10 +1,10 @@
 # ECG-FM-Benchmarking
 
-The official repository for the paper [Benchmarking ECG Foundational Models: A Reality Check Across Clinical Tasks](http://arxiv.org/abs/2509.25095)
+The official repository for the paper [Benchmarking ECG FMs: A Reality Check Across Clinical Tasks](http://arxiv.org/abs/2509.25095)
 
 [![arXiv](https://img.shields.io/badge/arXiv-2509.25095-b31b1b.svg)](http://arxiv.org/abs/2509.25095)
 
-
+🎉 This paper has been accepted at the Fourteenth International Conference on Learning Representations (ICLR 2026). OpenReview: https://openreview.net/forum?id=xXRqWpt3Xr
 
 Here, we benchmark ECG foundation models across **12 public datasets** and **26 clinically relevant tasks** encompassing **1,650 regression and classification targets**.
 We also proposed ECG-CPC, a new and outperforming ECG foundational model. We provide scripts, configurations, and checkpoints to evaluate models efficiently and reproducibly.
